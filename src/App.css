@@ -1,0 +1,45 @@
+.main{
+    height: 50vh;
+    width: 400px;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.heading{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(25, 175, 244);
+
+}
+
+.input{
+    padding: 8px 5px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: transparent;
+    margin: 5px 10px;
+}
+
+p{
+    font-size: 20px;
+}
+.input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(89, 87, 87);
+}
